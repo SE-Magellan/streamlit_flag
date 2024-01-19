@@ -4,9 +4,6 @@ import flag
 st.radio('Test flag icon :smile:', (flag.flag('BR'), flag.flag('US'), flag.flag('GBENG') ))
 
 
-from streamlit_image_select import image_select
-
-
 langugae_option = {
     'US': 'American English',
     'GB': 'British English',
