@@ -1,5 +1,5 @@
 import streamlit as st
-import flag
+#import flag
 
 st.radio('Test flag icon :smile:', (flag.flag('BR'), flag.flag('US'), flag.flag('GBENG') ))
 
