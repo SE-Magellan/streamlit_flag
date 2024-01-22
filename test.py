@@ -5,9 +5,9 @@ import streamlit as st
 
 
 langugae_option = {
-    'US': 'American English',
-    'GB': 'British English',
-    'BR': 'Português',
+    ':flag-us:': 'American English',
+    ':flag-gb:': 'British English',
+    ':flag-br:': 'Portugese'
 }
 
 selected_language = st.radio('Language choice:', options=langugae_option)
